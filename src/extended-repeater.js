@@ -7,6 +7,8 @@ module.exports = function repeater(str, options) {
     }
     if (typeof options['additionSeparator'] === "undefined") {
         options['additionSeparator'] = "";
+        
+    }
 
     if(typeof options['addition'] === "undefined"){
         options['addition'] = "";
